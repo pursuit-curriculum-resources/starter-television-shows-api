@@ -1,0 +1,20 @@
+{
+  "name": "8-0-emagi-project-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --port=5000 --routes routes.json data/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.16.3",
+    "nanoid": "^3.1.30"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

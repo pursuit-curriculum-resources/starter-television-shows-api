@@ -1,10 +1,11 @@
 {
-  "name": "8-0-emagi-project-server",
+  "name": "8-0-television-shows-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "json-server --port=5000 --routes routes.json --watch data/db.json"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",

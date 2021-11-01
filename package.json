@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "json-server --port=5000 --routes routes.json data/db.json"
+    "start": "json-server --port=5000 --routes routes.json --watch data/db.json"
   },
   "keywords": [],
   "author": "",

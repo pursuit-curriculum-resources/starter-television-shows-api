@@ -1,4 +1,5 @@
 {
   "/api/movies": "/shows?type=Movie",
-  "/api/shows": "/shows?type=TV%20Show"
+  "/api/shows": "/shows?type=TV%20Show",
+  "/api/*": "/$1"
 }

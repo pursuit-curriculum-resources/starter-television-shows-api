@@ -12,7 +12,7 @@ Some of the data came from [this Kaggle dataset.](https://www.kaggle.com/shivamb
 
 The following resources exist:
 
-- Movies: `/api/shows`
+- Movies: `/api/movies`
 - Shows: `/api/shows`
 
 ## Installation
